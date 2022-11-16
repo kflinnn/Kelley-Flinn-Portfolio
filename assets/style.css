@@ -3,11 +3,11 @@
 }
 
 :root {
-    --primary: blue;
-    --secondary: green;
-    --tertiary: red;
-    --dark: black;
-    --light: white;
+    --primary: #5B2A86;
+    --secondary: #7785AC;
+    --tertiary: #9AC6C5;
+    --dark: #360568;
+    --light: #A5E6BA;
 }
 
 body {
@@ -94,5 +94,5 @@ nav {
    .flex-item:first-child {
     min-height: 400px;
     flex-basis: 100%;
-    
+
    }   
