@@ -1,4 +1,4 @@
-# UCF Coding Bootcamp Challenge One
+# KFlinn Coding Inc.
 
 ## Purpose
 
