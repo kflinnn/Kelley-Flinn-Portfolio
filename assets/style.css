@@ -43,6 +43,24 @@ header h1 {
     line-height: 1;
 }
 
+.hero {
+    background-image: url("../assets/Images/Profile.png");
+    background-repeat: no-repeat;
+    padding: 100px 100px;
+}
+
+.hero h2 {
+    color: var(--tertiary);
+    background-color: var(--secondary);
+    padding: 15px 1% 15px 6%;
+    margin: 0;
+    font-size: 2vw;
+    line-height: 1;
+    display: inline-flex; 
+    text-align: right;
+    position: relative;
+}
+
 nav {
     display: flex;
     flex-direction: row;
@@ -96,3 +114,28 @@ nav {
     flex-basis: 100%;
 
    }   
+
+    .flex-item:hover {
+        background-size: 100% 100%;
+        color: var(--secondary);
+    }
+
+    .work-two {
+        min-height: 100px;
+        flex-basis: 40%;        
+    }
+
+    .work-three {
+        min-height: 100px;
+        flex-basis: 40%;
+    }
+
+    .work-four {
+        min-height: 100px;
+        flex-basis: 40%;
+    }
+    
+    .work-five {
+        min-height: 100px;
+        flex-basis: 40%;
+    }
