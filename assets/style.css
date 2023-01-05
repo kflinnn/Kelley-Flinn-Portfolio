@@ -47,18 +47,24 @@ header h1 {
     background-image: url("../assets/Images/Profile.png");
     background-repeat: no-repeat;
     padding: 100px 100px;
-}
+    position: relative;
+    left: 30%;
+    }
 
 .hero h2 {
     color: var(--tertiary);
     background-color: var(--secondary);
-    padding: 15px 1% 15px 6%;
+    padding: 15px 1% 15px 1%;
     margin: 0;
     font-size: 2vw;
     line-height: 1;
     display: inline-flex; 
-    text-align: right;
+    text-align: center;
     position: relative;
+    left: 200px;
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; */
 }
 
 nav {
@@ -83,18 +89,31 @@ nav {
     nav a:hover {
         background-size: 100% 100%;
         color: var(--primary);
-            }
+    }
 
-  .flex-container {
+    .page-wrapper h2{
+    color: var(--dark);
+    font-weight: bold;
+    font-size: 32pt; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 100%;
+    padding: 2rem;
+    border-right: 3px solid var(--dark);   
+    }
+        
+ 
+    .flex-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-  }
+    }
   
   .flex-item {
     border: 5px solid var(--secondary);
-    background-color: var(--primary);
-    color: var(--tertiary);
+    color: var(--primary);
+    background-color: var(--tertiary);
     min-height: 150px;
     max-height: 150px;
     flex-basis: calc(50%-1em);
@@ -109,33 +128,58 @@ nav {
     font-size: 0.9rem;
       }
 
+ 
    .flex-item:first-child {
     min-height: 400px;
     flex-basis: 100%;
-
+    background-image: url(../assets/Images/screenshot1.png);
+    background-size: 100%;
    }   
 
     .flex-item:hover {
         background-size: 100% 100%;
-        color: var(--secondary);
+        background-color: none;
     }
 
     .work-two {
         min-height: 100px;
-        flex-basis: 40%;        
+        flex-basis: 40%;   
+        background-image: url(../assets/Images/schedule.png);     
     }
 
     .work-three {
         min-height: 100px;
         flex-basis: 40%;
+        background-image: url(../assets/Images/quiz.png);
     }
 
     .work-four {
         min-height: 100px;
         flex-basis: 40%;
+        background-image: url(../assets/Images/weather.png);
     }
     
     .work-five {
         min-height: 100px;
         flex-basis: 40%;
+        background-image: url(../assets/Images/password.png);
+    }
+/* 
+    .work-text {
+        color: var(--tertiary);
+        background-color: var(--secondary);
+        padding: 15px 1% 15px 1%;
+        margin: 0;
+        line-height: 1;
+        display: inline-flex; 
+        text-align: center;
+        width: 96%;
+    } */
+
+    .work-text h3 {
+        font-size: 20pt;
+    }
+
+    .work-text span {
+        font-size: 12pt;
     }
