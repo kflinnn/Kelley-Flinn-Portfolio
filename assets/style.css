@@ -132,7 +132,7 @@ nav {
    .flex-item:first-child {
     min-height: 400px;
     flex-basis: 100%;
-    background-image: url(../assets/Images/screenshot1.png);
+    background-image: url(../assets/Images/FoodieCentralatHome.png);
     background-size: 100%;
    }   
 
@@ -144,7 +144,7 @@ nav {
     .work-two {
         min-height: 100px;
         flex-basis: 40%;   
-        background-image: url(../assets/Images/schedule.png);     
+        background-image: url(../assets/Images/screenshot1.png); 
     }
 
     .work-three {
@@ -156,7 +156,7 @@ nav {
     .work-four {
         min-height: 100px;
         flex-basis: 40%;
-        background-image: url(../assets/Images/weather.png);
+        background-image: url(../assets/Images/schedule.png);  
     }
     
     .work-five {
